@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      VTour Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <!-- <ion-list>
+
+        <ion-item>
+          <ion-label floating>Username</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+      
+      </ion-list> -->
+      <div class="login-container">
+        <img class="logo" src="assets/img/logo/logo-canon.png" />
+      <ion-list>
+
+          <ion-item>
+            <ion-label stacked>Username</ion-label>
+            <ion-input type="text" #username></ion-input>
+          </ion-item>
+        
+          <ion-item>
+            <ion-label stacked>Password</ion-label>
+            <ion-input type="password" #password></ion-input>
+          </ion-item>
+        
+        </ion-list>
+  <div padding>
+
+    <button block ion-button (click)="signInUser()">Sign In</button>
+    <!-- <button block ion-button (click)="register()">Register</button> -->
+  
+  </div>
+  </div>
+</ion-content>

@@ -1,0 +1,27 @@
+// <ion-header>
+//   <ion-navbar>
+//     <ion-title>
+//       VTour Login
+//     </ion-title>
+//   </ion-navbar>
+// </ion-header>
+
+// <ion-content padding>
+ 
+//   <div id="topButtons">
+
+//     <button ion-button (click)="signIn()" item-left>Sign In</button>
+//     <button ion-button (click)="register()" item-left>Register</button>
+  
+//   </div>
+// </ion-content>  
+
+page-home{
+    #topButtons{
+        display: flex;
+        flex-direction: row;
+    }
+    #topButtons button{
+        flex: 1;
+    }
+}
